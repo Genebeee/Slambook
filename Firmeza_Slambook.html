@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <title>Slambook!</title>
+    <link rel="stylesheet" href="Slambook.css">
+</head>
+<body>
+    <form>
+        <label>
+        Name:<br>
+        <input type="text" name="name" placeholder="Surname,First Name">
+        </label>
+        <label><br>
+        Email:<br>
+        <input type="email" name="user-email" placeholder="user@useremail.com">
+        </label>
+        <label><br>
+        Contact Number:<br>
+        <input type="tel" name="contact" placeholder="(xxx-xxx-xxxxx)">
+        </label>
+        <label><br>
+        URL Link:<br>
+        <input type="url" name="homepage" placeholder="e.g./https://domain.com">
+        </label>
+        <label><br>
+        Search:<br>
+        <input type="search" name="q" placeholder="type a search term">
+        </label>
+        <label><br>
+        Favorite Number:<br>
+        <input type="number" name="favorite number" min="0" max="20" value="0">
+        </label>
+        <label><br>
+        Motto:<br>
+        <textarea name="message" row="3">type here</textarea>
+        </label>
+        </form><br>
+
+    <form>
+        <fieldset>
+            <legend>
+                Which snacks do you enjoy the most?
+            </legend>
+            <label>
+                <input type="checkbox" name="snack" value="1">Chip
+            </label>
+            <label>
+                <input type="checkbox" name="snack" value="2">Chocolate
+            </label>
+            <label>
+                <input type="checkbox" name="snack" value="3">Fruits
+            </label>
+            <label>
+                <input type="checkbox" name="snack" value="4">Cookies
+            </label>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend>
+                If you could go anywhere for a vacation, where would you choose?
+            </legend>
+            <label>
+                <input type="radio" name="vacation" value="1">Beach
+            </label>
+            <label>
+                <input type="radio" name="vacation" value="2">Mountains
+            </label>
+            <label>
+                <input type="radio" name="vacation" value="3">City
+            </label>
+            <label>
+                <input type="radio" name="vacation" value="4">Countryside
+            </label>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <legend>
+                What type of music do you listen to the most?
+            </legend>
+            <select id="Music"name="Music">
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Hiphop">Hiphop</option>
+                <option value="Classical">Classical</option>
+            </select>
+            </label>
+        </fieldset>
+    </form><br>
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+</body>
+</html>
+
