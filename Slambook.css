@@ -1,0 +1,15 @@
+body {
+    color:rgb(125, 22, 105);
+    background-color: rgb(253, 194, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px rgb(181, 92, 163) 
+}
+
+fieldset {
+    border-style: dotted;
+    border-color: rgb(93, 5, 75);
+    border-width: 3.5px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
